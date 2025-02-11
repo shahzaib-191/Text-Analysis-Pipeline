@@ -1,9 +1,8 @@
-LangGraph and Groq-Based Text Analysis Pipeline
+**LangGraph and Groq-Based Text Analysis Pipeline**
 
 This project is a text analysis pipeline built using LangGraph and Groq, featuring a Streamlit web interface for seamless user interaction. It allows users to classify text, extract entities, generate summaries, analyze sentiment, and more through a modular workflow.
 
-🚀 Overview
-
+**🚀 Overview**
 Key Features
 
 LangGraph Workflow: Implements a graph-based workflow for structured text analysis.
@@ -14,7 +13,7 @@ Streamlit UI: Provides an intuitive web-based interface for user interaction.
 
 Comprehensive Text Analysis: Performs classification, entity recognition, summarization, sentiment analysis, keyword extraction, and context detection.
 
-#How It Works
+How It Works
 
 Text Classification: Categorizes text into types like News, Blog, Research, Technology, etc.
 
@@ -28,13 +27,13 @@ Keyword Extraction: Extracts important keywords from the text.
 
 Context Analysis: Determines the broader theme (e.g., Business, Health, Entertainment).
 
-#📌 Prerequisites
+**📌 Prerequisites**
 
 Python 3.8+
 
 Groq API key (stored in a .env file)
 
-#🔧 Installation
+**🔧 Installation**
 
 Clone the Repository:
 
@@ -55,14 +54,14 @@ Run the Application:
 
 streamlit run Text_Analysis_Pipeline.py
 
-#📂 Project Structure
+**📂 Project Structure**
 
 ├── Text_Analysis_Pipeline.py  # Main application with LangGraph workflow
 ├── requirements.txt           # Dependencies
 ├── .env                       # API Key storage (not to be committed)
 ├── README.md                  # Documentation
 
-#🎯 Usage
+**🎯 Usage**
 
 Open the Streamlit web interface.
 
@@ -72,7 +71,7 @@ Click Analyze Text to process it through the pipeline.
 
 View the results including classification, extracted entities, and summary.
 
-##🛠 Technologies Used
+**🛠 Technologies Used**
 
 Python: Core programming language.
 
@@ -82,7 +81,7 @@ Groq AI: NLP processing.
 
 Streamlit: Web interface.
 
-##🚀 Future Enhancements
+**🚀 Future Enhancements**
 
 Add more NLP features like topic modeling.
 
@@ -90,11 +89,11 @@ Enable file upload for bulk text processing.
 
 Implement user authentication for secure access.
 
-#🤝 Contributing
+**🤝 Contributing**
 
 Contributions are welcome! Feel free to submit a pull request with improvements.
 
-###📝 License
+**📝 License**
 
 This project is open-source and available under the MIT License.
 
