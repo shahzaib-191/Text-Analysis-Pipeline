@@ -1,100 +1,70 @@
-**LangGraph and Groq-Based Text Analysis Pipeline**
+# LangGraph and Groq-Based Text Analysis Pipeline
 
-This project is a text analysis pipeline built using LangGraph and Groq, featuring a Streamlit web interface for seamless user interaction. It allows users to classify text, extract entities, generate summaries, analyze sentiment, and more through a modular workflow.
+This project demonstrates a text analysis pipeline built using LangGraph and Groq, integrated with a Streamlit web interface. It allows users to classify text, extract entities, and generate summaries through a modular workflow.
 
-**🚀 Overview**
-Key Features
+## Overview
 
-LangGraph Workflow: Implements a graph-based workflow for structured text analysis.
+### Key Features
+- **LangGraph**: Manages graph-based workflows for complex data processing.
+- **Groq Integration**: Uses Groq AI for powerful language model processing.
+- **Streamlit Interface**: A user-friendly web interface to interact with the pipeline.
+- **Text Analysis**: Classifies input text, extracts entities, and generates summaries.
 
-Groq AI Integration: Leverages Groq language models for NLP tasks.
+### How It Works
+- **Text Classification**: Categorize text into News, Blog, Research, or Other.
+- **Entity Extraction**: Identify key entities like persons, organizations, and locations.
+- **Text Summarization**: Generate a concise summary of the text.
+- **Sentiment Analysis**: Analyze the tone of the text (Positive, Negative, Neutral).
+- **Keyword Extraction**: Extract important keywords or phrases.
+- **Context Analysis**: Understand the broader context or theme (Business, Technology, etc.).
 
-Streamlit UI: Provides an intuitive web-based interface for user interaction.
+## Prerequisites
+- Python 3.8+
+- Groq API key (Add this to a `.env` file in the root directory)
 
-Comprehensive Text Analysis: Performs classification, entity recognition, summarization, sentiment analysis, keyword extraction, and context detection.
+## Installation
 
-How It Works
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/maryamsafdar/Text-Analysis-Pipeline-Project/tree/main
+    ```
 
-Text Classification: Categorizes text into types like News, Blog, Research, Technology, etc.
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Entity Extraction: Identifies key entities (persons, organizations, locations).
+3. Create a `.env` file and add your Groq API key:
+    ```
+    GROQ_API_KEY=your_groq_api_key_here
+    ```
 
-Text Summarization: Generates a concise summary of the input text.
+4. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
 
-Sentiment Analysis: Analyzes whether the text is positive, negative, or neutral.
+## Project Structure
 
-Keyword Extraction: Extracts important keywords from the text.
+- `app.py`: The main application file that contains the Streamlit app and LangGraph workflow.
+- `.env`: Holds environment variables like the Groq API key.
+- `requirements.txt`: Lists all required Python packages.
+- `README.md`: Documentation for setting up and understanding the project.
 
-Context Analysis: Determines the broader theme (e.g., Business, Health, Entertainment).
+## Usage
+1. Start the app by running the Streamlit command.
+2. Input a sample text into the web interface.
+3. Click on the provided buttons to see the classification, extracted entities, and summary.
+4. View the graph-based workflow visualization.
 
-**📌 Prerequisites**
+## Technologies Used
+- **LangGraph**: For creating and managing the workflow.
+- **Groq**: Provides AI-powered responses for classification, entity extraction, and summarization.
+- **Streamlit**: To create an interactive and easy-to-use web interface.
+- **Python**: Core programming language used for development.
 
-Python 3.8+
+## Future Improvements
+- Extend the workflow to include more stages like sentiment analysis or topic modeling.
+- Add user authentication to secure access.
+- Allow users to upload text files directly for processing.
 
-Groq API key (stored in a .env file)
-
-**🔧 Installation**
-
-Clone the Repository:
-
-git clone https://github.com/yourusername/Text-Analysis-Pipeline.git
-cd Text-Analysis-Pipeline
-
-Install Dependencies:
-
-pip install -r requirements.txt
-
-Set Up Environment Variables:
-
-Create a .env file in the root directory and add your Groq API key:
-
-GROQ_API_KEY=your_groq_api_key_here
-
-Run the Application:
-
-streamlit run Text_Analysis_Pipeline.py
-
-**📂 Project Structure**
-
-├── Text_Analysis_Pipeline.py  # Main application with LangGraph workflow
-├── requirements.txt           # Dependencies
-├── .env                       # API Key storage (not to be committed)
-├── README.md                  # Documentation
-
-**🎯 Usage**
-
-Open the Streamlit web interface.
-
-Enter a piece of text in the input box.
-
-Click Analyze Text to process it through the pipeline.
-
-View the results including classification, extracted entities, and summary.
-
-**🛠 Technologies Used**
-
-Python: Core programming language.
-
-LangGraph: For workflow management.
-
-Groq AI: NLP processing.
-
-Streamlit: Web interface.
-
-**🚀 Future Enhancements**
-
-Add more NLP features like topic modeling.
-
-Enable file upload for bulk text processing.
-
-Implement user authentication for secure access.
-
-**🤝 Contributing**
-
-Contributions are welcome! Feel free to submit a pull request with improvements.
-
-**📝 License**
-
-This project is open-source and available under the MIT License.
-
-🔹 Developed by Muhammad Shahzaib Shahid
