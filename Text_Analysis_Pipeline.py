@@ -17,7 +17,7 @@ os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
 
 
 # Initialize Groq model (use your Groq model here)
-llm = ChatGroq( model="llama-3.1-70b-versatile", temperature=0)
+llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0)
 # Define the State class to hold workflow data
 # Define the state for the workflow
 # Define the state for the workflow
