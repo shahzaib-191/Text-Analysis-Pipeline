@@ -1,8 +1,8 @@
-#LangGraph and Groq-Based Text Analysis Pipeline
+LangGraph and Groq-Based Text Analysis Pipeline
 
 This project is a text analysis pipeline built using LangGraph and Groq, featuring a Streamlit web interface for seamless user interaction. It allows users to classify text, extract entities, generate summaries, analyze sentiment, and more through a modular workflow.
 
-#🚀 Overview
+🚀 Overview
 
 Key Features
 
